@@ -1,0 +1,30 @@
+@import "variables";
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.gradient-border {
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-image: linear-gradient(to right, $primary, $secondary) 1;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 16rem;
+  border: none !important;
+
+  &.directive {
+    max-width: 20rem !important;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  background-color: #212529
+}

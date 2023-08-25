@@ -1,0 +1,25 @@
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+$body-bg: #212529;
+$body-color: #FFFFFF;
+
+$font-family-base: 'Poppins', sans-serif;
+$primary: #6a5fff;
+$secondary: #ff5ea6;
+$h1-font-size: $font-size-base * 4;
+$btn-border-radius: 30px;
+$btn-padding-y: 16px;
+$btn-padding-x: 24px;
+
+$input-bg: white;
+$input-focus-bg: $input-bg;
+$input-color: black;
+$input-focus-color: $input-color;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "danger": $danger,
+);
