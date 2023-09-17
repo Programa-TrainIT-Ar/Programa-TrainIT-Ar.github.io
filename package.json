@@ -6,7 +6,7 @@
   "license": "",
   "author": "",
   "scripts": {
-    "build": "parcel build ./src/*.html",
+    "build": "parcel build ./src/*.html --no-source-maps",
     "dev": "parcel ./src/*.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
