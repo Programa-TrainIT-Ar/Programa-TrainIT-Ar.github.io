@@ -1,1 +1,0 @@
-{"mappings":"AAAA","sources":["src/scss/contact-us.scss"],"sourcesContent":[".contact-us-dots {\r\n  position: absolute;\r\n  right: 0;\r\n  width: 13rem;\r\n  top: 0;\r\n}\r\n"],"names":[],"version":3,"file":"contact-us.f414f6e4.css.map","sourceRoot":"/__parcel_source_root/"}
