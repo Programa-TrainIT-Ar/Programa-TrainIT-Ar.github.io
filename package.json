@@ -12,9 +12,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "posthtml-include": "^1.7.4",
-    "sass": "^1.65.1"
+    "@parcel/resolver-glob": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^ 2.12.0",
+    "posthtml-include": "^2.0.1",
+    "sass": "^1.71.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -28,5 +30,8 @@
   "_moduleAliases": {
     "@root": "src",
     "@node_modules": "node_modules"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
