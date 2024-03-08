@@ -7,7 +7,7 @@
   "author": "",
   "scripts": {
     "build": "parcel build ./src/*.html --no-source-maps --dist-dir docs",
-    "dev": "parcel ./src/*.html --open",
+    "dev": "parcel ./src/*.html --open --dist-dir docs",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
